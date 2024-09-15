@@ -1,0 +1,93 @@
+body{
+    background-color: blueviolet;
+}
+
+.search-box{
+    background-color: rgb(228, 236, 234);
+    margin: 13% 20% 10% 30%;
+    padding: 3%;
+    border: 1px solid;
+    height: 19rem;
+    width: 26rem;
+    border-radius: 5%;
+    gap: 3rem;
+}
+
+#inp-word{
+    background-color: rgb(228, 236, 234);
+    border: 1px solid;
+    margin-top: 7.5%;
+    width: 15rem;
+    padding: 5px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid blueviolet;
+}
+
+#search-btn{
+    border-radius: 5%;
+    margin-top: 7.5%;
+    margin-left: 20%;
+    padding: 13px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 0.9rem;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    color: rgb(228, 236, 234);
+}
+
+#details{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+h3{
+    font-size: 30px;
+    color: #1f194c;
+    
+}
+
+.result{
+    height: 35rem;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    height: 10%;
+}
+
+.result button{
+    background-color: transparent;
+    color: blueviolet;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.details{
+    margin-left: 2px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 3.5px;
+    margin-top: 2px;
+}
+
+p{
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+.word-example{
+    font-style: italic;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+}
+
